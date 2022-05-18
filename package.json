@@ -1,0 +1,31 @@
+{
+  "name": "sequelizerestapi",
+  "version": "1.0.0",
+  "description": "Primeros pasos con sequelize con RESTA API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaroldIB/SEQUELIZERESTAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaroldIB/SEQUELIZERESTAPI/issues"
+  },
+  "homepage": "https://github.com/HaroldIB/SEQUELIZERESTAPI#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
